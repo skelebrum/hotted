@@ -79,7 +79,7 @@
                                 {{-- <div class="sm:col-span-6">
                                     @foreach ($period as $item)
                                         @foreach ($bookings as $booking)
-                                           @if($item->format('d') == date_parse_from_format('Y-m-d', $booking->start_date)['day'])
+                                           @if ($item->format('d') == date_parse_from_format('Y-m-d', $booking->start_date)['day'])
                                                 <p
                                                     class="w-13 px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">
                                                 {{ $item->format('j F Y') }}</p>
@@ -134,7 +134,7 @@
                                         <div class="text-sm text-red-400">{{ $message }}</div>
                                     @enderror
                                 </div> --}}
-                                </select>
+
                         </div>
                         <div class="mt-6 p-4 flex justify-between">
                             <button type="submit"
