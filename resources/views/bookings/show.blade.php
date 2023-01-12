@@ -138,8 +138,7 @@
                         </div>
                         <div class="mt-6 p-4 flex justify-between">
                             <button type="submit"
-                                class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Make
-                                Reservation</button>
+                                class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Make reserve</button>
                         </div>
                         </form>
                     </div>
