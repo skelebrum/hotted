@@ -76,7 +76,7 @@
                                         <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
                                     @enderror
                                 </div>
-                                <div class="sm:col-span-6">
+                                {{-- <div class="sm:col-span-6">
                                     @foreach ($period as $item)
                                         @foreach ($bookings as $booking)
                                            @if($item->format('d') == date_parse_from_format('Y-m-d', $booking->start_date)['day'])
@@ -93,7 +93,7 @@
                                     @endforeach
                                     
 
-                                </div>
+                                </div> --}}
                                 <div class="sm:col-span-6">
                                     <label for="res_date" class="block text-sm font-medium text-gray-700"> Reservation
                                         Date
